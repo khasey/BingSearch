@@ -109,11 +109,6 @@ for current in sys.argv[1:]:
     print("Processing argument: " + current)
     Start(driver)
     Wait()
-    # if (first):
-    #     driver.find_element(By.XPATH, '//*[@id="L2AGLb"]').click()
-    #     first = False
-    # # Wait()
-    # Wait()
     Search(driver, current)
     Wait()
     Next(driver)
